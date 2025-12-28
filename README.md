@@ -14,7 +14,7 @@ Step 3:  Copy .env file from .env.example
 ```bash
  kafka-server-kraft/.env
 ``` 
-Step 5: Update .env file vaiables, this username & password will use in kafka ui dashboard
+Step 4: Update .env file vaiables, this username & password will use in kafka ui dashboard
 ```bash
     KAFKA_UI_USERNAME=admin
     KAFKA_UI_PASSWORD=change_me_strong_password
@@ -22,16 +22,16 @@ Step 5: Update .env file vaiables, this username & password will use in kafka ui
 ```
 #### Run application with docker
 
-Step 7: Install docker on your machine (already have then SKIP this step)
+Step 5: Install docker on your machine (already have then SKIP this step)
 
 #### Start Apache kafka, Enable Kraft and Kafka-UI
 
- Step 9: Start docker container
+ Step 6: Start docker container
   ```bash
     docker-compose up
  ```
 #### Access Kafka-UI
-Step 10: Access Kafka-UI
+Step 7: Access Kafka-UI
 ```bash
     http://localhost:8080/
 ```
